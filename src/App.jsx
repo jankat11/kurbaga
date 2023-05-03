@@ -53,9 +53,9 @@ function App() {
           <Card
             bg="primary"
             text="light"
-            className="card px-0 border-secondary"
+            className="card px-0"
           >
-            <Card.Body variant="primary">
+            <Card.Body>
               <Card.Title className="cry">😭😭😭</Card.Title>
               <Card.Text className="card-text my-5 display-6">
                 <span
