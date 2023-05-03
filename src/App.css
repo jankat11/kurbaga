@@ -98,7 +98,7 @@
 
 @keyframes flying-heart1 {
   0% {
-    top: 0rem;
+    top: -2.4rem;
     opacity: 1;
     left: 0;
   }
@@ -124,7 +124,7 @@
 }
 @keyframes flying-heart2 {
   0% {
-    top: 0rem;
+    top: -2.4rem;
     opacity: 1;
     left: 0;
   }
@@ -150,7 +150,7 @@
 }
 @keyframes flying-heart3 {
   0% {
-    top: 0rem;
+    top: -2.4rem;
     opacity: 1;
     left: 0;
   }
@@ -176,7 +176,7 @@
 }
 @keyframes flying-heart4 {
   0% {
-    top: 0rem;
+    top: -2.4rem;
     opacity: 1;
     left: 0;
   }
@@ -202,7 +202,7 @@
 }
 @keyframes flying-heart5 {
   0% {
-    top: 0rem;
+    top: -2.4rem;
     opacity: 1;
     left: 0;
   }
