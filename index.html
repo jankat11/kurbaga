@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-39K52SF5C1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-39K52SF5C1");
+    </script>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,10 +22,9 @@
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx" ></script>
-   <!--  <audio id="musicplayer"  controls autoplay>
+    <script type="module" src="/src/main.jsx"></script>
+    <!--  <audio id="musicplayer"  controls autoplay>
       <source src="oct.mp3" type="audio/mp3">
     </audio> -->
-
   </body>
 </html>
