@@ -120,7 +120,7 @@ function App() {
           <strong>ONA KALBİNİ BIRAK . . .</strong>
         </Button>
 
-        <p className="agla mb-0 pt-1">ONUN İÇİN AĞLA . . .</p>
+        <p className="agla mb-1 pt-1">ONUN İÇİN AĞLA . . .</p>
 
         <iframe
           id="musicplayer"
