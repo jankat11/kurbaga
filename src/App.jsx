@@ -47,7 +47,7 @@ function App() {
 
   return (
     <>
-      <Snowfall snowflakeCount={30} style={{ zIndex: 10 }} />
+      <Snowfall snowflakeCount={30} style={{ zIndex: 100 }} />
       <Row className="text-wrapper">
         <Col sm={12} className="p-0">
           <Card
