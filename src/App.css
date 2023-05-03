@@ -1,0 +1,291 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.card {
+  min-height: 30rem;
+  width: 100% !important;
+}
+
+.cry {
+  position: relative;
+  bottom: 2rem;
+}
+
+.heart-btn {
+  color: #bbb !important;
+  position: relative;
+  width: 50% !important;
+}
+
+.memory{
+  opacity: 0.5;
+  width: 50% !important;
+}
+
+.heart {
+  position: absolute;
+  opacity: 0;
+}
+
+.heart1 {
+  animation-name: flying-heart1;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+.heart2 {
+  animation-name: flying-heart2;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+.heart3 {
+  animation-name: flying-heart3;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+.heart4 {
+  animation-name: flying-heart4;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+.heart5 {
+  animation-name: flying-heart5;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+.spanHeart {
+  display: none;
+}
+
+
+.incin, .goren, .kaz, .yaz, .mezara, .dam {
+  color: #bbb;
+  position: relative;
+  white-space: nowrap;
+  opacity: 0;
+  animation-name: jeneric;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+.incin, .goren, .kaz, .yaz, .mezara{
+  display: none;
+} 
+
+
+@keyframes flying-heart1 {
+  0% {
+    top: 0rem;
+    opacity: 1;
+    left: 0;
+  }
+  20% {
+    left: 0.4rem;
+  }
+  40% {
+    left: -0.2rem;
+  }
+  60% {
+    opacity: 1;
+    left: 0.3rem;
+  }
+  90% {
+    
+    left: -0.2rem;
+  }
+  100% {
+    top: -30rem;
+    opacity: 0;
+    left: 0rem
+  }
+}
+@keyframes flying-heart2 {
+  0% {
+    top: 0rem;
+    opacity: 1;
+    left: 0;
+  }
+  20% {
+    left: -0.4rem;
+  }
+  40% {
+    left: 0.2rem;
+  }
+  60% {
+    opacity: 1;
+    left: -0.3rem;
+  }
+  90% {
+    
+    left: 0.2rem;
+  }
+  100% {
+    top: -30rem;
+    opacity: 0;
+    left: 0rem
+  }
+}
+@keyframes flying-heart3 {
+  0% {
+    top: 0rem;
+    opacity: 1;
+    left: 0;
+  }
+  20% {
+    left: 0.6rem;
+  }
+  40% {
+    left: -0.4rem;
+  }
+  60% {
+    opacity: 1;
+    left: 0.2rem;
+  }
+  90% {
+    
+    left: -0.1rem;
+  }
+  100% {
+    top: -30rem;
+    opacity: 0;
+    left: 0rem
+  }
+}
+@keyframes flying-heart4 {
+  0% {
+    top: 0rem;
+    opacity: 1;
+    left: 0;
+  }
+  20% {
+    left: -0.8rem;
+  }
+  40% {
+    left: -0.2rem;
+  }
+  60% {
+    opacity: 1;
+    left: 0.6rem;
+  }
+  90% {
+    
+    left: -0.2rem;
+  }
+  100% {
+    top: -30rem;
+    opacity: 0;
+    left: 0rem
+  }
+}
+@keyframes flying-heart5 {
+  0% {
+    top: 0rem;
+    opacity: 1;
+    left: 0;
+  }
+  20% {
+    left: 0.1rem;
+  }
+  40% {
+    left: -0.9rem;
+  }
+  60% {
+    opacity: 1;
+    left: -0.3rem;
+  }
+  90% {
+    
+    left: -0.2rem;
+  }
+  100% {
+    top: -30rem;
+    opacity: 0;
+    left: 0rem
+  }
+}
+
+
+
+@keyframes jeneric {
+  0% {
+    display: block;
+    top: 20rem;
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 1;
+  }
+
+  70%{
+    opacity: 1;
+  }
+
+  100% {
+    top: -7rem;
+    opacity: 0;
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+@media (max-width: 768px) {
+  #musicplayer{
+    width: 100% !important;
+  }
+  .heart-btn {
+    width: 100% !important;
+  }
+  .memory {
+    width: 100% !important;
+  }
+}
+
+#musicplayer {
+  width: 50%;
+  opacity: 0.2;
+}
+
+.agla {
+  width: 100%;
+  text-align: center;
+  color: #bbb
+}
+.card {
+  padding: 2em;
+}
+
+.aglaCard {
+  height: 12rem !important;
+  background-color: #555;
+}
+.read-the-docs {
+  color: #888;
+}
