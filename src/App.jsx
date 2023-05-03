@@ -131,9 +131,9 @@ function App() {
       <span className="spanHeart" ref={refHeart}>
         <RiHeartFill className={`text-danger heart ${heartClass}`} size={40} />
       </span>
-      <Row className="mt-5 mb-0 d-flex w-100 justify-content-center">
+{/*       <Row className="mt-5 mb-0 d-flex w-100 justify-content-center">
         <Image className="memory" fluid src="memory.jpg"></Image>
-      </Row>
+      </Row> */}
     </>
   );
 }
