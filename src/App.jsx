@@ -117,7 +117,7 @@ function App() {
           onClick={sendHeart}
           className="my-5 p-0 heart-btn btn-outline-secondary"
         >
-          <strong>ONA KALBİNİ BIRAK . . .</strong>
+          <strong>ONA KALBiNi BIRAK . . .</strong>
         </Button>
 
         <p className="agla mb-1 pt-1">ONUN İÇİN AĞLA . . .</p>
