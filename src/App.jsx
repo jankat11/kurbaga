@@ -1,5 +1,5 @@
-import { useState, useRef, useEffect } from "react";
-import { Card, Col, Row, Button, Image } from "react-bootstrap";
+import { useState, useRef } from "react";
+import { Card, Col, Row, Button } from "react-bootstrap";
 import { RiHeartFill } from "react-icons/ri";
 import "./App.css";
 import Snowfall from "react-snowfall";
